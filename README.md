@@ -29,4 +29,5 @@ Run Django tests:
 poetry run python manage.py test
 ```
 
-I expect both tests to pass, but only the first one does.
+This is [clearly stated in the documentation](https://www.django-rest-framework.org/api-guide/views/#api-policy-decorators),
+but it's easy to miss and can have huge impact on the security of the API.
